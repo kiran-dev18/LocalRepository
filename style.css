@@ -1,11 +1,11 @@
-/* Reset */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Body styles with animated background */
+
 body {
   height: 100vh;
   display: flex;
@@ -17,27 +17,27 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Container */
+
 .container {
   text-align: center;
   color: white;
   animation: fadeInSlide 2s ease-out;
 }
 
-/* Welcome text */
+
 .welcome-text {
   font-size: 3rem;
   margin-bottom: 10px;
 }
 
-/* Subtext */
+
 .sub-text {
   font-size: 1.2rem;
   margin-bottom: 30px;
   color: #f0f0f0;
 }
 
-/* Glowing button */
+
 .glow-button {
   padding: 15px 30px;
   font-size: 1rem;
@@ -55,7 +55,7 @@ body {
   transform: scale(1.05);
 }
 
-/* Animations */
+
 @keyframes fadeInSlide {
   from {
     opacity: 0;
